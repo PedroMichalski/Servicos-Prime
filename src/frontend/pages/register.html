@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <title>Cadastrar-se | Serviços Prime</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/variables.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    
+  </head>
+
+  <body class="register">
+    <main>
+      <section class="card">
+      <h1 id="titulo">Serviços Prime</h1>
+
+      <form id="registerForm">
+          <fieldset>
+              <label for="name">Nome:</label>
+              <input type="name" id="nome" class="text_box" name="nome" required>
+
+              <label for="email">E-mail:</label>
+              <input type="email" id="email" class="text_box" name="email" required>
+
+              <label for="CPF">CPF:</label>
+              <input type="CPF" id="CPF" class="text_box" name="CPF" required>
+
+              <label for="date">Data de nascimento:</label>
+              <input type="date" id="data" class="text_box" name="data" required>
+
+              <label for="senha">Senha:</label>
+              <input type="password" id="senha" class="text_box" name="senha" required>
+
+              <div class="acoes">
+                  <button type="submit" class="button primary-button">Cadastrar</button>
+              </div>
+          </fieldset>
+      </form>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="../scripts/auth.js"></script>
+      <script src="../scripts/register.js"></script>
+          <div class="alerta" role="alert">
+              Verifique os campos obrigatórios.
+          </div>
+          <div class="login_cadastro">
+              Caso já tenha uma conta,
+              <a href="login.html">entre</a>
+          </div>
+      </section>
+      <div class="side_image">
+        <img>
+      </div>
+    </main>  
+  </body>
+</html>

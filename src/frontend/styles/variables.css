@@ -1,0 +1,210 @@
+:root{
+--cor-primaria: #4B3F72;
+--cor-secundaria: #ffffff;
+}
+
+body.login,
+body.register{
+    margin-top: 1.5rem;
+    background-color: var(--cor-primaria);
+}
+
+.login fieldset,
+.register fieldset{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login .button,
+.register .button{
+    height: 40px;
+    width: 100px;
+    font-size: 1.2rem;
+    border-radius: 15px;
+}
+
+.header .button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 15px;
+    padding: 7px;
+    border:none;
+    font-size: 1rem;
+    gap: 5px;
+}
+
+.index main .button{
+    display:block;
+
+    padding: 15px;
+    border-radius: 25px;
+    height: 70px;
+    width: 300px;
+    font-size: 2rem;
+}
+
+.login .card,
+.register .card{
+    
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.navbar .button{
+    font-size: 1rem;
+}
+
+.header .profile_image{
+    width: 30px;
+    height: 30px;
+}
+
+.footer h2,
+.footer h3,
+.footer p{
+    color:var(--cor-secundaria);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-container div {
+    margin-bottom: 20px;
+}
+
+.footer-logo h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: var(--cor-secundaria); 
+}
+
+.footer-links ul {
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.footer-copy {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid var(--cor-secundaria);
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.footer-links .button{
+    font-size: 1rem;
+}
+
+.card-perfil{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cor-primaria);
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.card-perfil:hover{
+    filter: brightness(0.95);
+}
+
+.card-foto{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    border:2px solid var(--cor-primaria);
+}
+
+.card-nome{
+    color: var(--cor-secundaria)
+}
+
+.card-servico,
+.card-avaliacao{
+    color: var(--cor-secundaria);
+}
+.card-preco{
+    color: var(--cor-secundaria);
+    font-size: 1.2rem;
+}
+
+.card-baixo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.card-avaliacao i{
+    color: yellow;
+}
+
+.filter{
+    padding:30px;
+    border-radius: 20px;
+    border: 3px solid var(--cor-primaria);
+    max-width: 300px;
+}
+
+.filter .titulo{
+    text-align: center;
+}
+
+.filter label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  color: var(--cor-primaria);
+  margin-bottom: 6px;
+  cursor: pointer;
+}
+
+.filter-servicos input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.filter-preco .text_box{
+    max-width: 75px;
+    height: 40px;
+}
+
+.inputs-preco{
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  font-size: 14px;
+  color: var(--cor-primaria);
+  margin-bottom: 6px;
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-regiao .text_box{
+    max-width: 200px;
+}
+
+.corpo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
