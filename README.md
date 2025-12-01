@@ -93,7 +93,7 @@ Sistema visual de componentes reutilizáveis (header, footer etc.)
 
 Integração básica com o backend (em teste)
 
-🛠 Melhorias Futuras (já previstas)
+ Melhorias Futuras (já previstas)
 
 Correção e finalização das rotas do backend
 
